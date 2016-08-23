@@ -81,7 +81,7 @@ h3 {
 }
 
 article.post {
-	width: 70%;
+	width: 40%;
 	min-height: 30px;
 	background-color: #9DBDCD;
 	margin: 10px;
@@ -94,4 +94,9 @@ article.post {
 	font-size: 0.8em;
 	color: #FFFFFF;
 	margin: 10px;
+}
+
+#post-4 {
+	display: inline-block;	
+	background-color: red;
 }
