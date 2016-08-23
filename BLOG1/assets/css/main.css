@@ -68,10 +68,23 @@ html {
 
 h1 {
 	line-height: 1.8em;
-	//font-weight: bold;
+	font-weight: bold;
 	font-size: 1.8em;
-	color: #FFFFFF;
-	margin: 10px;
+	color: #F9BA32;
+	margin: 0px 10px 10px 10px;
+
+
+	
+    left: 0; top: 0; /* Левый верхний угол */
+    padding-left: 20px; /* Поля вокруг текста */
+    background: #9DBDCD; /* Цвет фона */
+    color: #333D3F;
+   
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;	
 }
 
 h3 {
@@ -87,16 +100,32 @@ article.post {
 	margin: 10px;
 	padding: 10px;
 	line-height: 1.5em;
+	border: 1px solid white;
+	border-radius: 5px;
 
 }
 
 .copyright {
-	font-size: 0.8em;
-	color: #FFFFFF;
+	font-size: 0.7em;
+	color: #333D3F;
 	margin: 10px;
 }
 
 #post-4 {
-	display: inline-block;	
+	display: none;	
 	background-color: red;
+}
+
+footer {
+	max-height: 40px;
+	position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 5px; /* Поля вокруг текста */
+    background: #9DBDCD; /* Цвет фона */
+    color: #333D3F;
+    width: 100%; /* Ширина слоя */
+	border-top: 1px solid white;
+	line-height: 0.4em;	
+	
+			
 }
