@@ -47,37 +47,37 @@ table {
 /* Main background */
 
 html { 
-  background: url(../../images/bg1.jpg) no-repeat center center fixed; 
+  background: url(../../images/bg2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: #333D3F;
+  color: #1E2759;
   font: 16px Arial, sans-serif;
 }
 
 /* Palette
 
- #F9BA32 - yellow
- #4996AD - dark blue
- #FFFFFF - white
- #9DBDCD - light blue
- #333D3F - graphite
+#1E2759 - dark blue
+#1747A6 - blue
+#F2F2F2 - milk
+#5ABFB5 - marine
+#BFBBB4 - light grey
+ 
 
  */
 
 h1 {
 	line-height: 1.8em;
-	font-weight: bold;
 	font-size: 1.8em;
 	color: #F9BA32;
 	margin: 0px 10px 10px 10px;
 
 
 	
-    left: 0; top: 0; /* Левый верхний угол */
-    padding-left: 20px; /* Поля вокруг текста */
-    background: #9DBDCD; /* Цвет фона */
+    left: 0; top: 0;
+    padding-left: 20px;
+    background: #5ABFB5;
     color: #333D3F;
    
 	border-bottom: 1px solid white;
@@ -89,20 +89,19 @@ h1 {
 
 h3 {
 	font-size: 1.2em;
-	font-weight: bold;
-	color: #4996AD;	
+	color: #1747A6;	
+	text-decoration: underline;
 }
 
 article.post {
 	width: 40%;
 	min-height: 30px;
-	background-color: #9DBDCD;
+	background-color: #F2F2F2;
 	margin: 10px;
 	padding: 10px;
 	line-height: 1.5em;
 	border: 1px solid white;
 	border-radius: 5px;
-
 }
 
 .copyright {
@@ -118,14 +117,12 @@ article.post {
 
 footer {
 	max-height: 40px;
-	position: fixed; /* Фиксированное положение */
-    left: 0; bottom: 0; /* Левый нижний угол */
-    padding: 5px; /* Поля вокруг текста */
-    background: #9DBDCD; /* Цвет фона */
+	position: fixed;
+    left: 0; bottom: 0;
+    padding: 5px;
+    background: #5ABFB5;
     color: #333D3F;
-    width: 100%; /* Ширина слоя */
+    width: 100%;
 	border-top: 1px solid white;
 	line-height: 0.4em;	
-	
-			
 }
